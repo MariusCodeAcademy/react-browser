@@ -1,10 +1,15 @@
 // JSX
 const rezult = 5 * 43;
 
+const topSecionData = {
+  title: 'The band!',
+  subTitle: 'We love music',
+};
+
 const App = (
   <div className=''>
     <section className='top container'>
-      <h1 className='title title--main'>The band!</h1>
+      <h1 className='title title--main'>{topSecionData.title}</h1>
       <h6 className='title title--sub'>We love music</h6>
       <p className='text--main'>
         We have created a fictional band website. Lorem ipsum dolor sit amet,
